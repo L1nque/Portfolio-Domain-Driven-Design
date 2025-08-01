@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kyj4FXvMa7o=",
+  "dgSpecHash": "u4f/eEvKf3g=",
   "success": true,
   "projectFilePath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.SharedKernel/Demo.SharedKernel.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/toor/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/toor/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.7/microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512"
+  ],
   "logs": []
 }
