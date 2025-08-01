@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Demo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Demo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Demo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Demo.Application.dll": {}
+        }
+      },
+      "Demo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Demo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Demo.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demo.Application/1.0.0": {
+      "type": "project",
+      "path": "../Demo.Application/Demo.Application.csproj",
+      "msbuildProject": "../Demo.Application/Demo.Application.csproj"
+    },
+    "Demo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Demo.Domain/Demo.Domain.csproj",
+      "msbuildProject": "../Demo.Domain/Demo.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Demo.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/toor/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Infrastructure/Demo.Infrastructure.csproj",
+      "projectName": "Demo.Infrastructure",
+      "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Infrastructure/Demo.Infrastructure.csproj",
+      "packagesPath": "/home/toor/.nuget/packages/",
+      "outputPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/toor/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/Demo.Application.csproj": {
+              "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/Demo.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/toor/.dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

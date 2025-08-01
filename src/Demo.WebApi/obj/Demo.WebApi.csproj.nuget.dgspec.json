@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.WebApi/Demo.WebApi.csproj": {}
+  },
+  "projects": {
+    "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/Demo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/Demo.Application.csproj",
+        "projectName": "Demo.Application",
+        "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/Demo.Application.csproj",
+        "packagesPath": "/home/toor/.nuget/packages/",
+        "outputPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/toor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Domain/Demo.Domain.csproj": {
+                "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Domain/Demo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/toor/.dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Domain/Demo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Domain/Demo.Domain.csproj",
+        "projectName": "Demo.Domain",
+        "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Domain/Demo.Domain.csproj",
+        "packagesPath": "/home/toor/.nuget/packages/",
+        "outputPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/toor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/toor/.dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Infrastructure/Demo.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Infrastructure/Demo.Infrastructure.csproj",
+        "projectName": "Demo.Infrastructure",
+        "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Infrastructure/Demo.Infrastructure.csproj",
+        "packagesPath": "/home/toor/.nuget/packages/",
+        "outputPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/toor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/Demo.Application.csproj": {
+                "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/Demo.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/toor/.dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.WebApi/Demo.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.WebApi/Demo.WebApi.csproj",
+        "projectName": "Demo.WebApi",
+        "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.WebApi/Demo.WebApi.csproj",
+        "packagesPath": "/home/toor/.nuget/packages/",
+        "outputPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/toor/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/Demo.Application.csproj": {
+                "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Application/Demo.Application.csproj"
+              },
+              "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Domain/Demo.Domain.csproj": {
+                "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Domain/Demo.Domain.csproj"
+              },
+              "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Infrastructure/Demo.Infrastructure.csproj": {
+                "projectPath": "/home/toor/repos/dotnet-projects/Portfolio-Domain-Driven-Design/src/Demo.Infrastructure/Demo.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/toor/.dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
