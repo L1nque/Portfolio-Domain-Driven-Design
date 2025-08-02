@@ -4,7 +4,7 @@ namespace Demo.SharedKernel.Core.Models;
 
 /// <summary>
 /// Abstract base class for creating strongly-typed IDs.
-/// This helps prevent accidental mixing of different ID types (e.g., CustomerId vs OrderId).
+/// This helps prevent accidental mixing of different ID types (e.g., CustomerId vs CarId).
 /// </summary>
 /// <typeparam name="TId">The type of the strongly-typed ID (e.g., CustomerId).</typeparam>
 [DebuggerDisplay("{Value}")] // for convenient debugging

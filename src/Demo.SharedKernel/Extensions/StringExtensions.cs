@@ -1,5 +1,3 @@
-using System.Globalization;
-
 namespace Demo.SharedKernel.Extensions;
 
 /// <summary>

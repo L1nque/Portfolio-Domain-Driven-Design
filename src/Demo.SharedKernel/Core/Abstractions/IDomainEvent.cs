@@ -13,9 +13,4 @@ public interface IDomainEvent : INotification
     /// Gets the unique identifier for the event.
     /// </summary>
     Guid EventId { get; }
-
-    /// <summary>
-    /// Gets the date and time when the event occurred.
-    /// </summary>
-    DateTimeOffset OccurredOn { get; }
 }
