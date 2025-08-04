@@ -203,7 +203,7 @@ public class Rental : AggregateRoot<RentalId>
         Car.Return(finalReading, finalLevel);
 
         Status = RentalStatus.Stopped;
-        AddDomainEvent(new RentalCheckedOutEvent(Id, Car.Id, PrimaryDriver.Id));
+        AddDomainEvent(new RentalCheckedOutEvent(Id, Car.Id, PrimaryDriver.Id, finalReading.Value, finalLevel.Value));
     }
 
     /// <summary>
