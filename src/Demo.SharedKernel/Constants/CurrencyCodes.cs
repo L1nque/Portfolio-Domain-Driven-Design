@@ -5,6 +5,7 @@ namespace Demo.SharedKernel.Constants;
 /// </summary>
 public static class CurrencyCodes
 {
+    public const string AED = "AED";
     public const string USD = "USD";
     public const string EUR = "EUR";
     public const string GBP = "GBP";
@@ -16,12 +17,15 @@ public static class CurrencyCodes
     public const string SEK = "SEK";
     public const string NZD = "NZD";
 
+    public const string Default = AED;
+
+
     /// <summary>
     /// A collection of all defined currency codes.
     /// </summary>
     private static readonly HashSet<string> ValidCodes = new(StringComparer.OrdinalIgnoreCase)
     {
-        USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, SEK, NZD
+        AED, USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, SEK, NZD
     };
 
     /// <summary>
